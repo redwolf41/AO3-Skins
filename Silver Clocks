@@ -223,6 +223,14 @@ a:link.current,
   border-radius: 5px;
 }
 
+input:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #101729 !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
 .current,
 #dashboard .current {
   background: #83908c !important;
@@ -458,12 +466,12 @@ span.indicator::before {
 .warnings .tag,
 .work .warning a.tag,
 dd.warning.tags a {
-  border: 1px solid #101729;
+  border: 1px solid #c5ba99;
   border-radius: 5px;
   background: #c5ba99;
   padding-left: 2px;
   padding-right: 2px;
-  box-shadow: 0px 0px 10px #26374e;
+  box-shadow: 0px 0px 10px #c5ba99;
   color: #141b2c !important;
 }
 
