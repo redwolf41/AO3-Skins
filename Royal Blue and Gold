@@ -223,6 +223,14 @@ a:link.current,
   border-radius: 5px;
 }
 
+input:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #9d5a14 !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
 .current,
 #dashboard .current {
   background: #051a2e !important;
