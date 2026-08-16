@@ -223,6 +223,14 @@ a:link.current,
   border-radius: 5px;
 }
 
+input:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #9d5a14 !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
 .current,
 #dashboard .current {
   background: #0b1c16 !important;
@@ -314,6 +322,21 @@ span.symbol.question,
   color: #d9923a !important;
   border: 1px solid #9d5a14;
   box-shadow: 0px 0px 15px #a78138;
+}
+
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff {
+  padding: 0em;
+}
+
+fieldset.warnings {
+  margin: 0;
+  padding: 0;
 }
 
 fieldset,
