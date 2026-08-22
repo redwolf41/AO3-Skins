@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-color: #515b1f;
+  background-color: #000000;
 }
 
 #header .heading {
