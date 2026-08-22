@@ -253,7 +253,7 @@ select:focus {
 }
 
 #dashboard a:hover {
-  background: #515b1f;
+  background: #238986;
   box-shadow: 0px 0px 15px #12497e;
 }
 
