@@ -325,6 +325,7 @@ span.symbol.question,
 }
 
 fieldset,
+#main .verbose legend,
 .toggled form,
 .dynamic form {
   background-repeat: repeat !important;
