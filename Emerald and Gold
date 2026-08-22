@@ -340,6 +340,7 @@ fieldset.warnings {
 }
 
 fieldset,
+#main .verbose legend,
 .toggled form,
 .dynamic form {
   background-repeat: repeat !important;
