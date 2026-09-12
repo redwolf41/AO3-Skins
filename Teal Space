@@ -24,7 +24,7 @@
   color: #043f44 !important;
   text-shadow: 1px 1px 1px #000000;
   font-family: "Brush Script MT", cursive;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 #main a:hover {
@@ -159,12 +159,14 @@ ul.notes a,
   font-size: 110%;
 }
 
+.splash .favorite li a:hover,
+.splash .favorite li a:focus,
 .splash .favorite li:nth-of-type(2n+1) a:hover,
 .splash .favorite li:nth-of-type(2n+2) a:hover {
-  color: #238986;
+  color: #20a8a4 !important;
   font-weight: bold;
   font-variant: small-caps;
-  background: #515b1f;
+  background: #063d50 !important;
 }
 
 .resp-sharing-button--bluesky,
@@ -246,6 +248,7 @@ select:focus {
   box-shadow: 0px 5px 15px #12497e;
 }
 
+#dashboard,
 #dashboard.own {
   border-top: 5px solid #18b1e6;
   border-bottom: 5px solid #18b1e6;
